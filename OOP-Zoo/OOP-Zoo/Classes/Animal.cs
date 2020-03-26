@@ -9,5 +9,6 @@ namespace OOP_Zoo.Classes
     {
         public string Name { get; set; }
         public int Age { get; set; }
+        public abstract void Eat();
     }
 }

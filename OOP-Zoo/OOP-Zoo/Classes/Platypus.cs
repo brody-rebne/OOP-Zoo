@@ -5,8 +5,14 @@ using OOP_Zoo.Interfaces;
 
 namespace OOP_Zoo.Classes
 {
-    class Platypus
+    public class Platypus : Animal, ICanSwim
     {
-
+        /// <summary>
+        /// The platypus swims
+        /// </summary>
+        public void Swim()
+        {
+            Console.WriteLine($"The platypus swims along");
+        }
     }
 }

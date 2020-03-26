@@ -9,6 +9,5 @@ namespace OOP_Zoo.Classes
     {
         public string sex { get; set; }
         public string furColor { get; set; }
-        public abstract void Eat();
     }
 }
