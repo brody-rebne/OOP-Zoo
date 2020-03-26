@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using OOP_Zoo.Interfaces;
 
-namespace OOP_Zoo
+namespace OOP_Zoo.Classes
 {
-    class Animal
+    public abstract class Animal
     {
         public string Name { get; set; }
         public int Age { get; set; }
+        public abstract void Eat();
     }
 }

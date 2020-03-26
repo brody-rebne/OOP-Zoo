@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OOP_Zoo
+namespace OOP_Zoo.Interfaces
 {
-    class Mammal
+    public interface Ihuntable
     {
     }
 }
